@@ -91,40 +91,81 @@
           <div class="price">5.5€</div>
         </div>
       </div>
-      <!-- 可以复制上面 .item 块添加更多 APERITIVOS -->
+      <!-- 更多 Aperitivos 可以复制 .item 块 -->
     </div>
 
     <!-- BAO BUN 分类 -->
     <div class="category">
       <h2>BAO BUN</h2>
-      <!-- 在这里添加 Bao Bun 菜品 -->
+      <div class="item">
+        <img src="images/bao1.jpg" alt="Bao Bun 1">
+        <div class="item-info">
+          <h3>菜名占位</h3>
+          <p class="description">描述占位</p>
+          <div class="price">0.00€</div>
+        </div>
+      </div>
+      <!-- 可以添加更多 Bao Bun -->
     </div>
 
     <!-- RAMEN 分类 -->
     <div class="category">
       <h2>RAMEN</h2>
-      <!-- 在这里添加 Ramen 菜品 -->
+      <div class="item">
+        <img src="images/ramen1.jpg" alt="Ramen 1">
+        <div class="item-info">
+          <h3>菜名占位</h3>
+          <p class="description">描述占位</p>
+          <div class="price">0.00€</div>
+        </div>
+      </div>
+      <!-- 更多 Ramen -->
     </div>
 
     <!-- SPICY RAMEN 分类 -->
     <div class="category">
       <h2>SPICY RAMEN</h2>
-      <!-- 在这里添加 Spicy Ramen 菜品 -->
+      <div class="item">
+        <img src="images/spicy1.jpg" alt="Spicy Ramen 1">
+        <div class="item-info">
+          <h3>菜名占位</h3>
+          <p class="description">描述占位</p>
+          <div class="price">0.00€</div>
+        </div>
+      </div>
+      <!-- 更多 Spicy Ramen -->
     </div>
 
     <!-- VEGAN RAMEN 分类 -->
     <div class="category">
       <h2>VEGAN RAMEN</h2>
-      <!-- 在这里添加 Vegan Ramen 菜品 -->
+      <div class="item">
+        <img src="images/vegan1.jpg" alt="Vegan Ramen 1">
+        <div class="item-info">
+          <h3>菜名占位</h3>
+          <p class="description">描述占位</p>
+          <div class="price">0.00€</div>
+        </div>
+      </div>
+      <!-- 更多 Vegan Ramen -->
     </div>
 
     <!-- ARROZ E NOODLES 分类 -->
     <div class="category">
       <h2>ARROZ E NOODLES</h2>
-      <!-- 在这里添加 Arroz e Noodles 菜品 -->
+      <div class="item">
+        <img src="images/noodles1.jpg" alt="Arroz e Noodles 1">
+        <div class="item-info">
+          <h3>菜名占位</h3>
+          <p class="description">描述占位</p>
+          <div class="price">0.00€</div>
+        </div>
+      </div>
+      <!-- 更多 Arroz e Noodles -->
     </div>
 
     <p style="text-align:center; margin-top:40px;">谢谢光临！欢迎品尝 🍽️</p>
   </div>
 </body>
 </html>
+
