@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>菜单</title>
+  <title>餐厅菜单</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
@@ -75,56 +75,56 @@
 </head>
 <body>
   <div class="container">
-    <h1>你的餐厅菜单</h1>
+    <h1>小陈餐厅菜单</h1>
 
+    <!-- APERITIVOS 分类 -->
     <div class="category">
-      <h2>前菜 / Appetizers</h2>
+      <h2>APERITIVOS</h2>
       <div class="item">
-        <img src="images/appetizer1.jpg" alt="前菜1">
+        <img src="images/takoyaki.jpg" alt="TAKOYAKI">
         <div class="item-info">
-          <h3>前菜名称 1</h3>
-          <p class="description">这里是前菜 1 的描述，例如：新鲜蔬菜 + 特制酱料</p>
-          <div class="price">€5.50</div>
+          <h3>TAKOYAKI</h3>
+          <p class="description">
+            Crouquetes japoneses com polvo, acompanhados com maioneses japonesas, molho okonomiyaki e flocos de atum. 4 peças.<br>
+            Deep fried japanese pastry balls with octopus, japanese mayo, okonomiyaki sauce and bonito flakes. 4 pieces.
+          </p>
+          <div class="price">5.5€</div>
         </div>
       </div>
-      <div class="item">
-        <img src="images/appetizer2.jpg" alt="前菜2">
-        <div class="item-info">
-          <h3>前菜名称 2</h3>
-          <p class="description">描述内容…</p>
-          <div class="price">€4.80</div>
-        </div>
-      </div>
+      <!-- 可以复制上面 .item 块添加更多 APERITIVOS -->
     </div>
 
+    <!-- BAO BUN 分类 -->
     <div class="category">
-      <h2>主菜 / Main Courses</h2>
-      <div class="item">
-        <img src="images/main1.jpg" alt="主菜1">
-        <div class="item-info">
-          <h3>主菜名称 1</h3>
-          <p class="description">这里是主菜 1 的描述</p>
-          <div class="price">€12.00</div>
-        </div>
-      </div>
-      <!-- 可以复制上面 item 块来添加更多主菜 -->
+      <h2>BAO BUN</h2>
+      <!-- 在这里添加 Bao Bun 菜品 -->
     </div>
 
+    <!-- RAMEN 分类 -->
     <div class="category">
-      <h2>饮料 / Drinks</h2>
-      <div class="item">
-        <img src="images/drink1.jpg" alt="饮料1">
-        <div class="item-info">
-          <h3>饮料名称 1</h3>
-          <p class="description">描述…</p>
-          <div class="price">€3.00</div>
-        </div>
-      </div>
-      <!-- 更多饮料 -->
+      <h2>RAMEN</h2>
+      <!-- 在这里添加 Ramen 菜品 -->
+    </div>
+
+    <!-- SPICY RAMEN 分类 -->
+    <div class="category">
+      <h2>SPICY RAMEN</h2>
+      <!-- 在这里添加 Spicy Ramen 菜品 -->
+    </div>
+
+    <!-- VEGAN RAMEN 分类 -->
+    <div class="category">
+      <h2>VEGAN RAMEN</h2>
+      <!-- 在这里添加 Vegan Ramen 菜品 -->
+    </div>
+
+    <!-- ARROZ E NOODLES 分类 -->
+    <div class="category">
+      <h2>ARROZ E NOODLES</h2>
+      <!-- 在这里添加 Arroz e Noodles 菜品 -->
     </div>
 
     <p style="text-align:center; margin-top:40px;">谢谢光临！欢迎品尝 🍽️</p>
-
   </div>
 </body>
 </html>
